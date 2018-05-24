@@ -23,15 +23,9 @@ namespace PhraseFighter
         public MainWindow()
         {
             InitializeComponent();
-            string xmlPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.xml";
+            string xmlPath = @"D:\PhraseRanker\Prose.xml";
+            //string rawPath = @"D:\PhraseRanker\Prose.txt";
             DataContext = MainViewModel.LoadFromXml(xmlPath);
-        }
-
-        private MainViewModel LoadFromRaw(string xmlPath)
-        {
-            string rawPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.txt";
-            List<SignitureItem> initialItems = SignitureItem.LoadFromRawText(rawPath);
-            return new MainViewModel(initialItems, xmlPath);
         }
 
         private void OnChoseRight(object sender, RoutedEventArgs e)

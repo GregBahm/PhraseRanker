@@ -55,7 +55,7 @@ namespace PhraseFighter
         {
             _rand = new Random();
             _items = items.ToList();
-            _currentFight = GetNewFight();
+            _currentFight = TryGetFight();
             _savePath = savePath;
         }
 
@@ -72,9 +72,8 @@ namespace PhraseFighter
         private void ResolveFight(SignitureItem winner, SignitureItem loser)
         {
             winner.Rank++;
-            CurrentIndex++;
             NotifyPropertyChanged(nameof(Items));
-            _currentFight = GetNewFight();
+            _currentFight = TryGetFight();
             NotifyPropertyChanged(nameof(CurrentFight));
             Save();
         }
@@ -83,10 +82,13 @@ namespace PhraseFighter
         {
             for (int i = 0; i < _items.Count; i++)
             {
-                RankFight ret = GetNewFight();
                 CurrentIndex++;
+                RankFight ret = GetNewFight();
                 if (ret != null)
                 {
+                    int leftIndex = _items.IndexOf(ret.LeftItem);
+                    int rightIndex = _items.IndexOf(ret.RightItem);
+                    CurrentIndex = Math.Max(leftIndex, rightIndex);
                     return ret;
                 }
             }
@@ -109,7 +111,7 @@ namespace PhraseFighter
         {
             for (int i = 1; i < _items.Count; i++)
             {
-                int index = (_currentIndex + i) % _items.Count;
+                int index = (CurrentIndex + i) % _items.Count;
                 if(_items[index].Rank == _items[CurrentIndex].Rank)
                 {
                     return _items[index];
@@ -141,6 +143,12 @@ namespace PhraseFighter
                 items.Add(loadedItem);
             }
             return new MainViewModel(items, path);
+        }
+        
+        public static  MainViewModel LoadFromRaw(string rawPath, string xmlPath)
+        {
+            List<SignitureItem> initialItems = SignitureItem.LoadFromRawText(rawPath);
+            return new MainViewModel(initialItems, xmlPath);
         }
     }
 }
