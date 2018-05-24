@@ -3,3 +3,8 @@
 ################################################################################
 
 /PhraseRanker/obj
+/PhraseRanker/bin/Debug
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/PhraseRanker/v15

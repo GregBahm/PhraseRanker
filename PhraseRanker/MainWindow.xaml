@@ -6,7 +6,50 @@
         xmlns:local="clr-namespace:PhraseFighter"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type local:RankFight}">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Button 
+                    Click="OnChoseLeft"
+                                Grid.Column="0">
+                    <TextBlock Text="{Binding Path=LeftItem.Phrase}"
+                               TextWrapping="Wrap"/>
+                </Button>
+                <Button 
+                    Click="OnChoseRight"
+                                Grid.Column="1">
+                    <TextBlock Text="{Binding Path=RightItem.Phrase}"
+                               TextWrapping="Wrap"/>
+                </Button>
+            </Grid>
+        </DataTemplate>
+    </Window.Resources>
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <GridSplitter Width="3" Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext"/>
+        <ScrollViewer Grid.Column="2"
+                      >
+            <ItemsControl ItemsSource="{Binding Path=Items}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <DockPanel>
+                            <Label Content="{Binding Path=Rank}"/>
+                            <TextBlock Text="{Binding Path=Phrase}"
+                                   Margin="4"
+                                   TextWrapping="Wrap"/>
+                        </DockPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+        <ContentControl Content="{Binding Path=CurrentFight}" />
     </Grid>
 </Window>
