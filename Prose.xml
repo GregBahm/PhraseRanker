@@ -8,7 +8,7 @@
   <Item>
     <StartTime>636044832000000000</StartTime>
     <EndTime>636053472000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Not the intended audience”</Phrase>
   </Item>
   <Item>
@@ -38,7 +38,7 @@
   <Item>
     <StartTime>636079392000000000</StartTime>
     <EndTime>636081984000000000</EndTime>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
     <Phrase>“Live from the forest of fresh cuts and jams.”</Phrase>
   </Item>
   <Item>
@@ -50,7 +50,7 @@
   <Item>
     <StartTime>636088032000000000</StartTime>
     <EndTime>636098400000000000</EndTime>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
     <Phrase>“My first job was controlling robots on the moon.”</Phrase>
   </Item>
   <Item>
@@ -62,7 +62,7 @@
   <Item>
     <StartTime>636099264000000000</StartTime>
     <EndTime>636106176000000000</EndTime>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
     <Phrase>“Like a cool haircut or chemical love.”</Phrase>
   </Item>
   <Item>
@@ -122,19 +122,19 @@
   <Item>
     <StartTime>636170976000000000</StartTime>
     <EndTime>636177024000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“All you can stomach.” </Phrase>
   </Item>
   <Item>
     <StartTime>636177024000000000</StartTime>
     <EndTime>636195168000000000</EndTime>
-    <Rank>2</Rank>
+    <Rank>4</Rank>
     <Phrase>“Fake knife, real ketchup.”</Phrase>
   </Item>
   <Item>
     <StartTime>636195168000000000</StartTime>
     <EndTime>636198624000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Ain't no stander like a bystander.”</Phrase>
   </Item>
   <Item>
@@ -146,7 +146,7 @@
   <Item>
     <StartTime>636202944000000000</StartTime>
     <EndTime>636207264000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“After that, the atoms sorted themselves out.”</Phrase>
   </Item>
   <Item>
@@ -170,7 +170,7 @@
   <Item>
     <StartTime>636221952000000000</StartTime>
     <EndTime>636227136000000000</EndTime>
-    <Rank>2</Rank>
+    <Rank>3</Rank>
     <Phrase>“Some people even find it relaxing”</Phrase>
   </Item>
   <Item>
@@ -182,13 +182,13 @@
   <Item>
     <StartTime>636234048000000000</StartTime>
     <EndTime>636240096000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
     <Phrase>“Strange to think of it as having a value system.”</Phrase>
   </Item>
   <Item>
     <StartTime>636240096000000000</StartTime>
     <EndTime>636250464000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
     <Phrase>“Containing much pith.”</Phrase>
   </Item>
   <Item>
@@ -206,13 +206,13 @@
   <Item>
     <StartTime>636259104000000000</StartTime>
     <EndTime>636264288000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Could have sworn that verse was in the book.”</Phrase>
   </Item>
   <Item>
     <StartTime>636264288000000000</StartTime>
     <EndTime>636268608000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
     <Phrase>“An essential formative experience.”</Phrase>
   </Item>
   <Item>
@@ -224,7 +224,7 @@
   <Item>
     <StartTime>636273792000000000</StartTime>
     <EndTime>636277248000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Inevitability of complexity growth.”</Phrase>
   </Item>
   <Item>
@@ -236,19 +236,19 @@
   <Item>
     <StartTime>636278976000000000</StartTime>
     <EndTime>636285888000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Didn’t count on the expectorating wall of meat.”</Phrase>
   </Item>
   <Item>
     <StartTime>636285888000000000</StartTime>
     <EndTime>636289344000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
     <Phrase>“Mimicking the genre-typical side-chain compression effect.”</Phrase>
   </Item>
   <Item>
     <StartTime>636289344000000000</StartTime>
     <EndTime>636294528000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Wow! If he says one more cool thing, he's in!”</Phrase>
   </Item>
   <Item>
@@ -260,25 +260,25 @@
   <Item>
     <StartTime>636297984000000000</StartTime>
     <EndTime>636304032000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>2</Rank>
     <Phrase>“Sugar's still sweet.”</Phrase>
   </Item>
   <Item>
     <StartTime>636304032000000000</StartTime>
     <EndTime>636305760000000000</EndTime>
-    <Rank>1</Rank>
+    <Rank>3</Rank>
     <Phrase>“Tell my enemies I stand corrected.”</Phrase>
   </Item>
   <Item>
     <StartTime>636305760000000000</StartTime>
     <EndTime>636310080000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Heads on proud.”</Phrase>
   </Item>
   <Item>
     <StartTime>636310080000000000</StartTime>
     <EndTime>636316992000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“The need for sleep, defeated.”</Phrase>
   </Item>
   <Item>
@@ -290,7 +290,7 @@
   <Item>
     <StartTime>636319584000000000</StartTime>
     <EndTime>636324768000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>2</Rank>
     <Phrase>“Built for something more primitive.”</Phrase>
   </Item>
   <Item>
@@ -302,13 +302,13 @@
   <Item>
     <StartTime>636329952000000000</StartTime>
     <EndTime>636336000000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Every beast of the earth and fowl of the air.”</Phrase>
   </Item>
   <Item>
     <StartTime>636336000000000000</StartTime>
     <EndTime>636342048000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“That was rendered in the reality engine.”</Phrase>
   </Item>
   <Item>
@@ -320,7 +320,7 @@
   <Item>
     <StartTime>636348096000000000</StartTime>
     <EndTime>636349824000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Wait, no. Let’s reframe that.”</Phrase>
   </Item>
   <Item>
@@ -338,7 +338,7 @@
   <Item>
     <StartTime>636354144000000000</StartTime>
     <EndTime>636359328000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Have it in a way.”</Phrase>
   </Item>
   <Item>
@@ -350,7 +350,7 @@
   <Item>
     <StartTime>636361056000000000</StartTime>
     <EndTime>636364512000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Well now I feel like I have to try it.”</Phrase>
   </Item>
   <Item>
@@ -362,13 +362,13 @@
   <Item>
     <StartTime>636371424000000000</StartTime>
     <EndTime>636382656000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Salt to taste.”</Phrase>
   </Item>
   <Item>
     <StartTime>636382656000000000</StartTime>
     <EndTime>636385248000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>1</Rank>
     <Phrase>“Here’s your future.”</Phrase>
   </Item>
   <Item>

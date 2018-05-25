@@ -5,27 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhraseFighter"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Prose Ranker" Height="350" Width="525">
     <Window.Resources>
         <DataTemplate DataType="{x:Type local:RankFight}">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <Button 
-                    Click="OnChoseLeft"
-                                Grid.Column="0">
-                    <TextBlock Text="{Binding Path=LeftItem.Phrase}"
-                               TextWrapping="Wrap"/>
-                </Button>
-                <Button 
-                    Click="OnChoseRight"
-                                Grid.Column="1">
-                    <TextBlock Text="{Binding Path=RightItem.Phrase}"
-                               TextWrapping="Wrap"/>
-                </Button>
-            </Grid>
+            <DockPanel>
+                <Label Content="Pick The Better Line" 
+                       DockPanel.Dock="Top"
+                       HorizontalAlignment="Center"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Button Click="OnChoseLeft"
+                            Grid.Column="0">
+                        <TextBlock Text="{Binding Path=LeftItem.Phrase}"
+                                   TextWrapping="Wrap" />
+                    </Button>
+                    <Button Click="OnChoseRight"
+                            Grid.Column="1">
+                        <TextBlock Text="{Binding Path=RightItem.Phrase}"
+                                   TextWrapping="Wrap" />
+                    </Button>
+                </Grid>
+            </DockPanel>
         </DataTemplate>
     </Window.Resources>
     <Grid>
@@ -35,21 +38,22 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <GridSplitter Width="3" Grid.Column="1" ResizeDirection="Columns" ResizeBehavior="PreviousAndNext"/>
-        <ScrollViewer Grid.Column="2"
-                      >
-            <ItemsControl ItemsSource="{Binding Path=Items}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <DockPanel>
-                            <Label Content="{Binding Path=Rank}"/>
-                            <TextBlock Text="{Binding Path=Phrase}"
-                                   Margin="4"
-                                   TextWrapping="Wrap"/>
-                        </DockPanel>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
+        <GroupBox Header="Current Rankings"
+                  Grid.Column="2">
+            <ScrollViewer>
+                <ItemsControl ItemsSource="{Binding Path=Items}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <DockPanel>
+                                <TextBlock Text="{Binding Path=Phrase}"
+                                           Margin="4"
+                                           TextWrapping="Wrap" />
+                            </DockPanel>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </GroupBox>
         <ContentControl Content="{Binding Path=CurrentFight}" />
     </Grid>
 </Window>
