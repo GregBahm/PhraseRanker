@@ -7,7 +7,26 @@
         mc:Ignorable="d"
         Title="Prose Ranker" Height="350" Width="525">
     <Window.Resources>
-        <DataTemplate DataType="{x:Type local:RankFight}">
+        <DataTemplate DataType="{x:Type local:SignitureItem}">
+            <TextBlock Text="{Binding Path=Phrase}"
+                       Margin="4"
+                       TextWrapping="Wrap" />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:QuickSortGroup}">
+            <StackPanel>
+                <ItemsControl ItemsSource="{Binding Path=BetterLines}"
+                              Margin="20, 0, 0, 0" />
+                <ContentControl Content="{Binding Path=PivotItem}" 
+                                FontWeight="Bold"/>
+                <ItemsControl ItemsSource="{Binding Path=UnsortedLines}"
+                              Margin="40, 0, 0, 0" 
+                              IsEnabled="False"
+                              FontStyle="Italic"/>
+                <ItemsControl ItemsSource="{Binding Path=WorseLines}"
+                              Margin="20, 0, 0, 0" />
+            </StackPanel>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type local:PhraseFight}">
             <DockPanel>
                 <Label Content="Pick The Better Line" 
                        DockPanel.Dock="Top"
@@ -41,17 +60,7 @@
         <GroupBox Header="Current Rankings"
                   Grid.Column="2">
             <ScrollViewer>
-                <ItemsControl ItemsSource="{Binding Path=Items}">
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <DockPanel>
-                                <TextBlock Text="{Binding Path=Phrase}"
-                                           Margin="4"
-                                           TextWrapping="Wrap" />
-                            </DockPanel>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                <ItemsControl ItemsSource="{Binding Path=Items}" />
             </ScrollViewer>
         </GroupBox>
         <ContentControl Content="{Binding Path=CurrentFight}" />
