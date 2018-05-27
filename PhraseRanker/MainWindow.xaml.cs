@@ -15,17 +15,15 @@ using System.Windows.Shapes;
 
 namespace PhraseFighter
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        const string XmlPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.xml";
+        const string RawPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.txt";
+
         public MainWindow()
         {
             InitializeComponent();
-            string xmlPath = @"D:\PhraseRanker\Prose.xml";
-            //string rawPath = @"D:\PhraseRanker\Prose.txt";
-            DataContext = MainViewModel.LoadFromXml(xmlPath);
+            DataContext = MainViewModel.LoadFromXml(XmlPath);
         }
 
         private void OnChoseRight(object sender, RoutedEventArgs e)
@@ -38,6 +36,12 @@ namespace PhraseFighter
         {
             MainViewModel context = (MainViewModel)DataContext;
             context.GrantLeftWin();
+        }
+
+        private void OnResetClick(object sender, RoutedEventArgs e)
+        {
+            DataContext = MainViewModel.LoadFromRaw(RawPath, XmlPath);
+
         }
     }
 }

@@ -18,7 +18,7 @@ namespace PhraseFighter
         {
             get
             {
-                return _sorter.Groups.OrderBy(item => item.PivotItem.Rank);
+                return _sorter.Groups.OrderByDescending(item => item.PivotItem.Rank);
             }
         }
 

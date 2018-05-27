@@ -45,14 +45,6 @@ namespace PhraseFighter
 
         public bool Complete { get { return _unsortedLines.Count == 0; } }
 
-        public int Rank
-        {
-            get
-            {
-                return _rankOffset + _worseLines.Count;
-            }
-        }
-
         public QuickSortGroup(SignitureItem pivotItem, IEnumerable<SignitureItem> unsortedLines, int rankOffset)
         {
             PivotItem = pivotItem;
@@ -61,7 +53,10 @@ namespace PhraseFighter
             _betterLines = new List<SignitureItem>();
             _worseLines = new List<SignitureItem>();
 
-            //TODO: Set Rank
+            foreach (SignitureItem item in AllItems)
+            {
+                item.Rank = rankOffset;
+            }
         }
 
         public PhraseFight GetNextPhraseFight()
@@ -91,14 +86,15 @@ namespace PhraseFighter
             return GetNextPhraseFight();
         }
 
-        public QuickSortGroup GetBetterLinesGroup()
+        public MitosisResult UndergoMitosis()
         {
-            return GetGroupFrom(_betterLines, Rank);
-        }
-
-        public QuickSortGroup GetWorseLinesGroup()
-        {
-            return GetGroupFrom(_worseLines, _rankOffset);
+            int baseRank = _rankOffset + _worseLines.Count;
+            PivotItem.Rank = baseRank;
+            QuickSortGroup betterGroup = GetGroupFrom(_betterLines, baseRank + 1);
+            QuickSortGroup worseGroup = GetGroupFrom(_worseLines, _rankOffset);
+            _betterLines.Clear();
+            _worseLines.Clear();
+            return new MitosisResult(betterGroup, worseGroup);
         }
 
         private static QuickSortGroup GetGroupFrom(List<SignitureItem> items, int rankOffset)
@@ -118,6 +114,18 @@ namespace PhraseFighter
             float mid = (float)lineSet.Count / 2;
             int index = (int)Math.Floor(mid);
             return lineSet[index];
+        }
+    }
+
+    public class MitosisResult
+    {
+        public QuickSortGroup BetterGroup { get; }
+        public QuickSortGroup WorseGroup { get; }
+
+        public MitosisResult(QuickSortGroup betterGroup, QuickSortGroup worseGroup)
+        {
+            BetterGroup = betterGroup;
+            WorseGroup = worseGroup;
         }
     }
 }

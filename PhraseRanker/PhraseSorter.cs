@@ -18,15 +18,14 @@ namespace PhraseFighter
 
         public void UndergoMitosis(QuickSortGroup completedGroup)
         {
-            QuickSortGroup betterGroup = completedGroup.GetBetterLinesGroup();
-            QuickSortGroup worseGroup = completedGroup.GetWorseLinesGroup();
-            if(betterGroup != null)
+            MitosisResult result = completedGroup.UndergoMitosis();
+            if (result.BetterGroup != null)
             {
-                _groups.Add(betterGroup);
+                _groups.Add(result.BetterGroup);
             }
-            if(worseGroup != null)
+            if(result.WorseGroup != null)
             {
-                _groups.Add(worseGroup);
+                _groups.Add(result.WorseGroup);
             }
         }
 
