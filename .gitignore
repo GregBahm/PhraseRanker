@@ -9,3 +9,15 @@
 /.vs/ProjectSettings.json
 /.vs/PhraseRanker/v15
 *.suo
+
+/UnityProject/PhraseRanker/Library/
+/UnityProject/PhraseRanker/Temp/
+/UnityProject/PhraseRanker/obj/Debug/
+/UnityProject/PhraseRanker/UnityPackageManager/
+/UnityProject/PhraseRanker/Assembly-CSharp.csproj
+/UnityProject/PhraseRanker/PhraseRanker.csproj
+/UnityProject/PhraseRanker/PhraseRanker.Editor.csproj
+/UnityProject/PhraseRanker/PhraseRanker.Plugins.csproj
+/UnityProject/PhraseRanker/PhraseRanker.sln
+/UnityProject/PhraseRanker/Packages/
+/UnityProject/PhraseRanker/.vs/
