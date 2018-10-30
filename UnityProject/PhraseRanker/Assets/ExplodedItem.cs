@@ -7,6 +7,7 @@ public class ExplodedItem : MonoBehaviour
     public TMP_Text TextMesh;
     public SignitureItem Item;
     public RectTransform Rect;
+    public float RandomSeed;
 
     private void Start()
     {

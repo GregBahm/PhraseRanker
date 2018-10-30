@@ -27,6 +27,7 @@ public class ExplodedScript : MonoBehaviour
     public float HeightScale;
 
     public float Margin;
+    public float Slant;
 
     void Start ()
     {
@@ -52,7 +53,7 @@ public class ExplodedScript : MonoBehaviour
         newObj.transform.parent = transform;
         ExplodedItem explodedItem = newObj.GetComponent<ExplodedItem>();
         explodedItem.Item = item;
-        newObj.transform.rotation = Quaternion.Euler(0, UnityEngine.Random.Range(0, 360), 0);
+        explodedItem.RandomSeed = UnityEngine.Random.value;
         return explodedItem;
     }
 
@@ -62,18 +63,40 @@ public class ExplodedScript : MonoBehaviour
         for (int i = 0; i < _explodedItems.Count; i++)
         {
             ExplodedItem item = _explodedItems[i];
-            offset += UpdateItem(item, offset);
+            offset += UpdateItemText(item, offset);
         }
-	}
+        float offsetTotal = offset;
+        offset = 0;
+        for (int i = 0; i < _explodedItems.Count; i++)
+        {
+            ExplodedItem item = _explodedItems[i];
+            offset += UpdateItemPosition(item, offset, offsetTotal);
+        }
+    }
 
-    private float UpdateItem(ExplodedItem item, float currentOffset)
+    private float UpdateItemPosition(ExplodedItem item, float offset, float offsetTotal)
+    {
+        float rawRank = (float)item.Item.Rank / _itemsCount;
+        float height = GetItemHeight(rawRank);
+        float param = (offset + height / 2) / offsetTotal;
+        float angle = (param * 360) - 180;
+        float margin = Margin;
+        if(Mathf.Abs(angle) > 90)
+        {
+            item.TextMesh.alignment = TMPro.TextAlignmentOptions.Right;
+            angle += 180;
+        }
+        item.transform.localRotation = Quaternion.Euler(0, 0, angle);
+        item.Rect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, margin);
+        return height;
+    }
+
+    private float UpdateItemText(ExplodedItem item, float currentOffset)
     {
         float rawRank = (float)item.Item.Rank / _itemsCount;
         float height = GetItemHeight(rawRank);
         
         item.TextMesh.text = GetTextFor(item.Item, rawRank);
-        item.transform.localPosition = new Vector3(0, currentOffset * -HeightScale, 0);
-        item.Rect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, Margin);
         return height;
     }
 
