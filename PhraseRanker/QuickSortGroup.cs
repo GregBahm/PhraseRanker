@@ -9,6 +9,8 @@ namespace PhraseFighter
 
     public class QuickSortGroup : ViewModel
     {
+        private readonly PhraseSorter _mothership;
+
         public SignitureItem PivotItem { get; }
         private readonly int _rankOffset;
 
@@ -45,8 +47,9 @@ namespace PhraseFighter
 
         public bool Complete { get { return _unsortedLines.Count == 0; } }
 
-        public QuickSortGroup(SignitureItem pivotItem, IEnumerable<SignitureItem> unsortedLines, int rankOffset)
+        public QuickSortGroup(SignitureItem pivotItem, IEnumerable<SignitureItem> unsortedLines, int rankOffset, PhraseSorter mothership)
         {
+            _mothership = mothership;
             PivotItem = pivotItem;
             _rankOffset = rankOffset;
             _unsortedLines = unsortedLines.ToList();
@@ -83,7 +86,7 @@ namespace PhraseFighter
             {
                 return null;
             }
-            return GetNextPhraseFight();
+            return _mothership.GetNextPhraseFight();
         }
 
         public MitosisResult UndergoMitosis()
@@ -97,7 +100,7 @@ namespace PhraseFighter
             return new MitosisResult(betterGroup, worseGroup);
         }
 
-        private static QuickSortGroup GetGroupFrom(List<SignitureItem> items, int rankOffset)
+        private QuickSortGroup GetGroupFrom(List<SignitureItem> items, int rankOffset)
         {
             if (!items.Any())
             {
@@ -106,7 +109,7 @@ namespace PhraseFighter
             SignitureItem pivotItem = GetPivotItem(items);
             List<SignitureItem> unsortedItems = items.ToList();
             unsortedItems.Remove(pivotItem);
-            return new QuickSortGroup(pivotItem, unsortedItems, rankOffset);
+            return new QuickSortGroup(pivotItem, unsortedItems, rankOffset, _mothership);
         }
 
         private static SignitureItem GetPivotItem(List<SignitureItem> lineSet)

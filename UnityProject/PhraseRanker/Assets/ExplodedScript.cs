@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
+using UnityEditor;
 using UnityEngine;
 
 public class ExplodedScript : MonoBehaviour
@@ -35,6 +36,13 @@ public class ExplodedScript : MonoBehaviour
         _itemsCount = items.Length;
         _explodedItems = CreateExplodedItems(items);
 	}
+
+    [MenuItem("Do/Screenshot")]
+    public static void TakeScreenshot()
+    {
+        string outputPath = @"C:\Users\Lisa\Documents\PhraseRanker\Screenshot.png";
+        ScreenCapture.CaptureScreenshot(outputPath, 4);
+    }
 
     private List<ExplodedItem> CreateExplodedItems(SignitureItem[] items)
     {
@@ -85,6 +93,10 @@ public class ExplodedScript : MonoBehaviour
         {
             item.TextMesh.alignment = TMPro.TextAlignmentOptions.Right;
             angle += 180;
+        }
+        else
+        {
+            item.TextMesh.alignment = TMPro.TextAlignmentOptions.Left;
         }
         item.transform.localRotation = Quaternion.Euler(0, 0, angle);
         item.Rect.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, margin);

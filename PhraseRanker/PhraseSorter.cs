@@ -8,11 +8,13 @@ namespace PhraseFighter
 {
     public class PhraseSorter
     {
+        private readonly Random _random;
         private readonly List<QuickSortGroup> _groups;
         public IEnumerable<QuickSortGroup> Groups { get { return _groups; } }
 
         public PhraseSorter(IEnumerable<SignitureItem> items)
         {
+            _random = new Random();
             _groups = GetGroups(items);
         }
 
@@ -29,7 +31,7 @@ namespace PhraseFighter
             }
         }
 
-        private static List<QuickSortGroup> GetGroups(IEnumerable<SignitureItem> items)
+        private List<QuickSortGroup> GetGroups(IEnumerable<SignitureItem> items)
         {
             Dictionary<int, List<SignitureItem>> dictionary = new Dictionary<int, List<SignitureItem>>();
             foreach (SignitureItem item in items)
@@ -49,10 +51,16 @@ namespace PhraseFighter
                 List<SignitureItem> unsortedSet = item.ToList();
                 SignitureItem pivotItem = unsortedSet[0];
                 unsortedSet.RemoveAt(0);
-                QuickSortGroup group = new QuickSortGroup(pivotItem, unsortedSet, pivotItem.Rank);
+                QuickSortGroup group = new QuickSortGroup(pivotItem, unsortedSet, pivotItem.Rank, this);
                 ret.Add(group);
             }
             return ret;
+        }
+
+        internal PhraseFight GetNextPhraseFight()
+        {
+            int randomPhraseIndex = _random.Next(_groups.Count - 1);
+            return _groups[randomPhraseIndex].GetNextPhraseFight();
         }
     }
 }
