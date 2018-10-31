@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.6723623, g: 0, b: 0.27075195, a: 1}
+  m_IndirectSpecularColor: {r: 0.09594751, g: 0.09594751, b: 0.09594751, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -88,7 +88,6 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-    m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -162,7 +161,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 10000
   field of view: 60
   orthographic: 0
   orthographic size: 615
@@ -187,13 +186,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 527963112}
-  m_LocalRotation: {x: -0.31643394, y: -0.30352777, z: 0.107669264, w: -0.8922711}
+  m_LocalRotation: {x: 0.31644377, y: 0.30352005, z: -0.107643045, w: 0.8922735}
   m_LocalPosition: {x: -370.78732, y: 497.04675, z: -196.06805}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 39.054, y: 37.573, z: 0}
 --- !u!1 &748824762
 GameObject:
   m_ObjectHideFlags: 0
@@ -224,18 +223,22 @@ MonoBehaviour:
   SourceXml: {fileID: 4900000, guid: eedca7229e3c51b48b0279d0e260a119, type: 3}
   TextMeshPrefab: {fileID: 1469792138189276, guid: d7a74bef65691dd459cd504b5a6e5f73,
     type: 2}
-  High: 1
-  Low: 0.177
-  SizeRamp: 2.76
-  HighColor: {r: 1, g: 0.9803922, b: 0, a: 1}
-  MidColor: {r: 1, g: 1, b: 1, a: 1}
-  LowColor: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
-  ColorRamp: 1.5
-  BackgroundColor: {r: 1, g: 0, b: 0.40350866, a: 1}
+  High: 0
+  Low: 1
+  SizeRamp: 1.28
+  HighColor: {r: 0.46323532, g: 0.46323532, b: 0.46323532, a: 1}
+  MidColor: {r: 0.66176474, g: 0.23842993, b: 0.38732702, a: 1}
+  LowColor: {r: 0.986207, g: 1, b: 0, a: 1}
+  ColorRamp: 0.6
+  BackgroundColor: {r: 0, g: 0, b: 0, a: 1}
   HeightScale: 0.15
-  Margin: 200
-  Slant: 58.83
-  FadePower: 0
+  Margin: 151.4
+  Slant: 46.1
+  FadePower: 0.307
+  RotationalOffset: 47
+  Stagger: 0
+  RampColor: 2.03
+  ScaleColor: 3.54
 --- !u!4 &748824764
 Transform:
   m_ObjectHideFlags: 0
