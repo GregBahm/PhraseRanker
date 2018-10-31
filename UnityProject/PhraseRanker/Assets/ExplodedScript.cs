@@ -22,6 +22,7 @@ public class ExplodedScript : MonoBehaviour
     public Color MidColor;
     public Color LowColor;
     public float ColorRamp;
+    public Color BackgroundColor;
 
     private int _itemsCount;
     private List<ExplodedItem> _explodedItems;
@@ -31,6 +32,8 @@ public class ExplodedScript : MonoBehaviour
 
     public float Margin;
     public float Slant;
+    [Range(0, 1)]
+    public float FadePower;
 
     void Start ()
     {
@@ -82,8 +85,8 @@ public class ExplodedScript : MonoBehaviour
         EstablishParams(totalSize);
         foreach (ExplodedItem item in _explodedItems)
         {
+            item.TextMesh.color = GetColorFor(item.Item, item.Param);
             UpdateItemPosition(item);
-            item.TextMesh.color = GetColorFor(item.Item);
         }
     }
 
@@ -120,12 +123,14 @@ public class ExplodedScript : MonoBehaviour
         {
             item.TextMesh.anchor = TextAnchor.MiddleRight;
             item.transform.localPosition = new Vector3(-Margin, 0, 0);
+            item.transform.localRotation = Quaternion.Euler(0, Slant, 0);
             angle += 180;
         }
         else
         {
-            item.TextMesh.anchor = TextAnchor.MiddleLeft;
+            item.TextMesh.anchor = TextAnchor.MiddleRight;
             item.transform.localPosition = new Vector3(Margin, 0, 0);
+            item.transform.localRotation = Quaternion.Euler(0, 180 - Slant, 0);
         }
         item.transform.parent.localRotation = Quaternion.Euler(0, 0, angle);
         item.transform.localScale = new Vector3(item.Size, item.Size, item.Size);
@@ -138,7 +143,7 @@ public class ExplodedScript : MonoBehaviour
         return size;
     }
     
-    private Color GetColorFor(SignitureItem item)
+    private Color GetColorFor(SignitureItem item, float param)
     {
         float rawRank = (float)item.Rank / _itemsCount;
         float colorRampedRank = Mathf.Pow(rawRank, ColorRamp);
@@ -146,6 +151,12 @@ public class ExplodedScript : MonoBehaviour
         float highColorRamp = Mathf.Clamp01(colorRampedRank * 2 - 1);
         Color color = Color.Lerp(LowColor, MidColor, lowColorRamp);
         color = Color.Lerp(color, HighColor, highColorRamp);
+
+
+        float backgroundColorFade = Mathf.Abs(param - .5f) * 2;
+        backgroundColorFade = Mathf.Lerp(1, backgroundColorFade, FadePower);
+        color = Color.Lerp(BackgroundColor, color, backgroundColorFade);
+
         return color;
     }
 

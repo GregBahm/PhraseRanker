@@ -55,6 +55,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="MainViewModel.cs" />
+    <Compile Include="MergeSorter.cs" />
     <Compile Include="PhraseFight.cs" />
     <Compile Include="PhraseSorter.cs" />
     <Compile Include="QuickSortGroup.cs" />
