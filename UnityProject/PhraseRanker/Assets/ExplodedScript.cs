@@ -40,10 +40,16 @@ public class ExplodedScript : MonoBehaviour
     public float RampColor;
     public float ScaleColor;
 
+    [Range(0, 1)]
+    public float Gap;
+
+    public Material Background;
+
     void Start ()
     {
         SignitureItem[] items = LoadFromXml(SourceXml.text).ToArray();
-        items = CullItems(items);
+        items = items.Reverse().ToArray();
+        //items = CullItems(items);
         _itemsCount = items.Length;
         _explodedItems = CreateExplodedItems(items);
 	}
@@ -110,6 +116,7 @@ public class ExplodedScript : MonoBehaviour
             item.TextMesh.color = GetColorFor(item.Item, item.Param);
             UpdateItemPosition(item);
         }
+        Background.SetColor("_Tint", BackgroundColor);
     }
 
     private void EstablishParams(float totalSize)
@@ -150,13 +157,22 @@ public class ExplodedScript : MonoBehaviour
             item.transform.localPosition = new Vector3(stagger, 0, 0);
             item.transform.parent.localRotation = Quaternion.Euler(0, Slant, 0);
             angle += 180;
+            if(angle > 180)
+            {
+                angle = Mathf.Lerp(270, angle, Gap);
+            }
+            else
+            {
+                angle = Mathf.Lerp(-90, angle, Gap);
+            }
         }
         else
         {
-            item.TextMesh.anchor = TextAnchor.MiddleRight;
+            item.TextMesh.anchor = TextAnchor.MiddleLeft;
             item.transform.parent.localPosition = new Vector3(margin, 0, 0);
-            item.transform.localPosition = new Vector3(stagger, 0, 0);
-            item.transform.parent.localRotation = Quaternion.Euler(0, 180 - Slant, 0);
+            item.transform.localPosition = new Vector3(-stagger, 0, 0);
+            item.transform.parent.localRotation = Quaternion.Euler(0, 0 - Slant, 0);
+            angle = Mathf.Lerp(90f, angle % 360, Gap);
         }
         item.transform.parent.parent.localRotation = Quaternion.Euler(0, 0, angle);
         item.transform.localScale = new Vector3(item.Size, item.Size, item.Size);
