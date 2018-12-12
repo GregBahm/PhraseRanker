@@ -34,13 +34,36 @@ public class ExplodedScript : MonoBehaviour
     public float Slant;
     [Range(0, 1)]
     public float FadePower;
+    [Range(0, 360)]
+    public float RotationalOffset;
+    public float Stagger;
+    public float RampColor;
+    public float ScaleColor;
+
+    [Range(0, 1)]
+    public float Gap;
+
+    public Material Background;
 
     void Start ()
     {
         SignitureItem[] items = LoadFromXml(SourceXml.text).ToArray();
+        items = items.Reverse().ToArray();
+        //items = CullItems(items);
         _itemsCount = items.Length;
         _explodedItems = CreateExplodedItems(items);
 	}
+
+    private SignitureItem[] CullItems(SignitureItem[] baseItems)
+    {
+        int count = baseItems.Length;
+        float theshold = count * .75f;
+        foreach (SignitureItem item in baseItems)
+        {
+            item.Rank = count - item.Rank;
+        }
+        return baseItems.Where(item => item.Rank < theshold).ToArray();
+    }
 
     [MenuItem("Do/Screenshot")]
     public static void TakeScreenshot()
@@ -62,10 +85,15 @@ public class ExplodedScript : MonoBehaviour
 
     private ExplodedItem InitializeExplodedItem(SignitureItem item)
     {
-        GameObject pivot = new GameObject();
-        pivot.transform.parent = transform;
+        GameObject pivotA = new GameObject();
+        pivotA.transform.parent = transform;
+
+
+        GameObject pivotB = new GameObject();
+        pivotB.transform.parent = pivotA.transform;
+
         GameObject newObj = Instantiate(TextMeshPrefab);
-        newObj.transform.parent = pivot.transform;
+        newObj.transform.parent = pivotB.transform;
         ExplodedItem explodedItem = newObj.GetComponent<ExplodedItem>();
         explodedItem.Item = item;
         explodedItem.RandomSeed = UnityEngine.Random.value;
@@ -88,6 +116,7 @@ public class ExplodedScript : MonoBehaviour
             item.TextMesh.color = GetColorFor(item.Item, item.Param);
             UpdateItemPosition(item);
         }
+        Background.SetColor("_Tint", BackgroundColor);
     }
 
     private void EstablishParams(float totalSize)
@@ -117,22 +146,35 @@ public class ExplodedScript : MonoBehaviour
 
     private void UpdateItemPosition(ExplodedItem item)
     {
-        float angle = (item.Param * 360) - 180;
+        float angle = (item.Param * 360) + RotationalOffset;
+        angle = angle % 360 - 180;
+        float stagger = Stagger * item.RandomSeed;
         float margin = Margin;
         if(Mathf.Abs(angle) > 90)
         {
             item.TextMesh.anchor = TextAnchor.MiddleRight;
-            item.transform.localPosition = new Vector3(-Margin, 0, 0);
-            item.transform.localRotation = Quaternion.Euler(0, Slant, 0);
+            item.transform.parent.localPosition = new Vector3(-margin, 0, 0);
+            item.transform.localPosition = new Vector3(stagger, 0, 0);
+            item.transform.parent.localRotation = Quaternion.Euler(0, Slant, 0);
             angle += 180;
+            if(angle > 180)
+            {
+                angle = Mathf.Lerp(270, angle, Gap);
+            }
+            else
+            {
+                angle = Mathf.Lerp(-90, angle, Gap);
+            }
         }
         else
         {
-            item.TextMesh.anchor = TextAnchor.MiddleRight;
-            item.transform.localPosition = new Vector3(Margin, 0, 0);
-            item.transform.localRotation = Quaternion.Euler(0, 180 - Slant, 0);
+            item.TextMesh.anchor = TextAnchor.MiddleLeft;
+            item.transform.parent.localPosition = new Vector3(margin, 0, 0);
+            item.transform.localPosition = new Vector3(-stagger, 0, 0);
+            item.transform.parent.localRotation = Quaternion.Euler(0, 0 - Slant, 0);
+            angle = Mathf.Lerp(90f, angle % 360, Gap);
         }
-        item.transform.parent.localRotation = Quaternion.Euler(0, 0, angle);
+        item.transform.parent.parent.localRotation = Quaternion.Euler(0, 0, angle);
         item.transform.localScale = new Vector3(item.Size, item.Size, item.Size);
     }
 
@@ -152,11 +194,15 @@ public class ExplodedScript : MonoBehaviour
         Color color = Color.Lerp(LowColor, MidColor, lowColorRamp);
         color = Color.Lerp(color, HighColor, highColorRamp);
 
-
-        float backgroundColorFade = Mathf.Abs(param - .5f) * 2;
+        float offsetParam = (param + RotationalOffset / 360) % 1;
+        float backgroundColorFade = Mathf.Abs(offsetParam - .5f) * 2;
         backgroundColorFade = Mathf.Lerp(1, backgroundColorFade, FadePower);
         color = Color.Lerp(BackgroundColor, color, backgroundColorFade);
-
+        color = new Color(
+            Mathf.Pow(color.r, RampColor) * ScaleColor, 
+            Mathf.Pow(color.g, RampColor) * ScaleColor, 
+            Mathf.Pow(color.b, RampColor) * ScaleColor,
+            1);
         return color;
     }
 

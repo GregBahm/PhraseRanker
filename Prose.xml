@@ -2,26 +2,554 @@
   <Item>
     <StartTime>636038784000000000</StartTime>
     <EndTime>636044832000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>67</Rank>
     <Phrase>“If this is how you want it, okay, okay”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636431040000000000</StartTime>
+    <EndTime>636432768000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“A blob of pyrosomes that live in the ocean.”</Phrase>
   </Item>
   <Item>
     <StartTime>636057792000000000</StartTime>
     <EndTime>636073344000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>68</Rank>
     <Phrase>“Quick. Help me flip this table.”</Phrase>
   </Item>
   <Item>
     <StartTime>636073344000000000</StartTime>
     <EndTime>636079392000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>68</Rank>
     <Phrase>“Cruelly mocking the concept of fun.”</Phrase>
   </Item>
   <Item>
     <StartTime>636079392000000000</StartTime>
     <EndTime>636081984000000000</EndTime>
-    <Rank>0</Rank>
+    <Rank>68</Rank>
     <Phrase>“Live from the forest of fresh cuts and jams.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636088032000000000</StartTime>
+    <EndTime>636098400000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“My first job was controlling robots on the moon.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636099264000000000</StartTime>
+    <EndTime>636106176000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Like a cool haircut or chemical love.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636148512000000000</StartTime>
+    <EndTime>636158880000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Whichever one is the good one.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636158880000000000</StartTime>
+    <EndTime>636170976000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Down where the turtles stop.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636170976000000000</StartTime>
+    <EndTime>636177024000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“All you can stomach.” </Phrase>
+  </Item>
+  <Item>
+    <StartTime>636177024000000000</StartTime>
+    <EndTime>636195168000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Fake knife, real ketchup.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636198624000000000</StartTime>
+    <EndTime>636202944000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Relate to it.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636202944000000000</StartTime>
+    <EndTime>636207264000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“After that, the atoms sorted themselves out.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636216768000000000</StartTime>
+    <EndTime>636221952000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Popular among the ivy and ferns.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636221952000000000</StartTime>
+    <EndTime>636227136000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Some people even find it relaxing”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636227136000000000</StartTime>
+    <EndTime>636234048000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“An awful thing to waste.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636234048000000000</StartTime>
+    <EndTime>636240096000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Strange to think of it as having a value system.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636240096000000000</StartTime>
+    <EndTime>636250464000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Containing much pith.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636250464000000000</StartTime>
+    <EndTime>636256512000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Semi-slash, semi-burn.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636256512000000000</StartTime>
+    <EndTime>636259104000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“It isn’t even a story.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636259104000000000</StartTime>
+    <EndTime>636264288000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Could have sworn that verse was in the book.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636264288000000000</StartTime>
+    <EndTime>636268608000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“An essential formative experience.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636268608000000000</StartTime>
+    <EndTime>636273792000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“It’s a miracle of science.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636273792000000000</StartTime>
+    <EndTime>636277248000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Inevitability of complexity growth.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636285888000000000</StartTime>
+    <EndTime>636289344000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Mimicking the genre-typical side-chain compression effect.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636294528000000000</StartTime>
+    <EndTime>636297984000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The algorithm was immediately taught contradiction.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636297984000000000</StartTime>
+    <EndTime>636304032000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Sugar's still sweet.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636304032000000000</StartTime>
+    <EndTime>636305760000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Tell my enemies I stand corrected.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636310080000000000</StartTime>
+    <EndTime>636316992000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The need for sleep, defeated.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636319584000000000</StartTime>
+    <EndTime>636324768000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Built for something more primitive.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636329952000000000</StartTime>
+    <EndTime>636336000000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Every beast of the earth and fowl of the air.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636336000000000000</StartTime>
+    <EndTime>636342048000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“That was rendered in the reality engine.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636352416000000000</StartTime>
+    <EndTime>636354144000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“For reasons lost to history.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636354144000000000</StartTime>
+    <EndTime>636359328000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Have it in a way.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636359328000000000</StartTime>
+    <EndTime>636361056000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Gifts of rare albino elephants.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636361056000000000</StartTime>
+    <EndTime>636364512000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Well now I feel like I have to try it.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636371424000000000</StartTime>
+    <EndTime>636382656000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Salt to taste.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636382656000000000</StartTime>
+    <EndTime>636385248000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Here’s your future.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636388704000000000</StartTime>
+    <EndTime>636390432000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“uhhhOHh”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636394752000000000</StartTime>
+    <EndTime>636402528000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Throw some confidence behind it.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636402528000000000</StartTime>
+    <EndTime>636404256000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Well, joke isn’t the right word.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636406848000000000</StartTime>
+    <EndTime>636409440000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“For your scalp, not your hair.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636409440000000000</StartTime>
+    <EndTime>636413760000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Otherwise this would take forever.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636413760000000000</StartTime>
+    <EndTime>636416352000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Lazily reclaimed by nature.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636416352000000000</StartTime>
+    <EndTime>636418944000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“As reversed as psychology can get.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636419808000000000</StartTime>
+    <EndTime>636424992000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Peanut butter jelly and other snacks.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636424992000000000</StartTime>
+    <EndTime>636431040000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Oh, let it.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636464736000000000</StartTime>
+    <EndTime>636473376000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Have you ever actually sat down and read this thing?”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636475968000000000</StartTime>
+    <EndTime>636479424000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“How unlikely that it’d be the obvious thing.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636482880000000000</StartTime>
+    <EndTime>636483744000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Thrilled as beans.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636483744000000000</StartTime>
+    <EndTime>636487200000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“In this case the advantage is provable.“</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636487200000000000</StartTime>
+    <EndTime>636503616000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“It was a great joke with excellent delivery.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636503616000000000</StartTime>
+    <EndTime>636506208000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“It doesn’t melt but tastes pretty good.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636506208000000000</StartTime>
+    <EndTime>636509664000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Ready to be awake again.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636509664000000000</StartTime>
+    <EndTime>636511392000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Now to inhabit the structure.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636516576000000000</StartTime>
+    <EndTime>636522624000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Repetition but with shifting intonation.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636522624000000000</StartTime>
+    <EndTime>636527808000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Hey, the man knows what he is.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636530400000000000</StartTime>
+    <EndTime>636533856000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Something simple and shy like that.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636533856000000000</StartTime>
+    <EndTime>636536448000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Oops, all allegory.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636536448000000000</StartTime>
+    <EndTime>636540768000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“What was I saying, the first time around?”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636546816000000000</StartTime>
+    <EndTime>636547680000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Cleverly painting the dirt.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636558048000000000</StartTime>
+    <EndTime>636559776000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“No, partybot. Not now.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636570144000000000</StartTime>
+    <EndTime>636572736000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Titan of normalcy.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636572736000000000</StartTime>
+    <EndTime>636577056000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Looking good, Faust.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636582240000000000</StartTime>
+    <EndTime>636584832000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Admit it. This is what you came here for.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636584832000000000</StartTime>
+    <EndTime>636588288000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Crashing through the back brush.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636588288000000000</StartTime>
+    <EndTime>636590880000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Curiously portrayed as dreaming underdogs.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636590880000000000</StartTime>
+    <EndTime>636594336000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The future is here, old man.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636612480000000000</StartTime>
+    <EndTime>636615072000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“What I imagine a dumpster tastes like.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636620256000000000</StartTime>
+    <EndTime>636624576000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Maybe just imagined.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636637536000000000</StartTime>
+    <EndTime>636646176000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The fire doesn’t start until tomorrow.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636652224000000000</StartTime>
+    <EndTime>636655680000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Behold the highest resolution.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636655680000000000</StartTime>
+    <EndTime>636660000000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Consider the meaning.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636660000000000000</StartTime>
+    <EndTime>636664320000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The first of several seamless transitions.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636664320000000000</StartTime>
+    <EndTime>636668640000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“You normalize it pretty quickly.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636668640000000000</StartTime>
+    <EndTime>636676416000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Believe harder.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636676416000000000</StartTime>
+    <EndTime>636681600000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Exactly what it seems.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636685056000000000</StartTime>
+    <EndTime>636688512000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Of the dead and burning south.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636688512000000000</StartTime>
+    <EndTime>636691968000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“haha but i will tell you anyway”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636691968000000000</StartTime>
+    <EndTime>636694560000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Can’t it just die clean and pretty?”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636694560000000000</StartTime>
+    <EndTime>636698016000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Let loose your charms.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636699744000000000</StartTime>
+    <EndTime>636704928000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“An increasingly alienating series of inside jokes.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636704928000000000</StartTime>
+    <EndTime>636709248000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Reeling with the glut of possibilities.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636711840000000000</StartTime>
+    <EndTime>636717888000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“The words make sense.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636717888000000000</StartTime>
+    <EndTime>636721344000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Profusion of variables with unhelpful names.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636721344000000000</StartTime>
+    <EndTime>636723936000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Who knows what they were going for.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636727392000000000</StartTime>
+    <EndTime>636729984000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Contextualized in the trend it is the apotheosis of.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636739488000000000</StartTime>
+    <EndTime>636742080000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Pretend to dignity.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636742080000000000</StartTime>
+    <EndTime>636746400000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Host to these bizarre guests.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636746400000000000</StartTime>
+    <EndTime>636748992000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Adds flavor but isn’t the meat.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636057792000000000</StartTime>
+    <EndTime>636057792000000000</EndTime>
+    <Rank>68</Rank>
+    <Phrase>“Once in a lifetime.”</Phrase>
+  </Item>
+  <Item>
+    <StartTime>636456960000000000</StartTime>
+    <EndTime>636464736000000000</EndTime>
+    <Rank>0</Rank>
+    <Phrase>“Way to bury the lede.”</Phrase>
   </Item>
   <Item>
     <StartTime>636081984000000000</StartTime>
@@ -30,22 +558,10 @@
     <Phrase>”Seething scalding caldera of pixels.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636088032000000000</StartTime>
-    <EndTime>636098400000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“My first job was controlling robots on the moon.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636098400000000000</StartTime>
     <EndTime>636099264000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“A concatenated series of transforms.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636099264000000000</StartTime>
-    <EndTime>636106176000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Like a cool haircut or chemical love.”</Phrase>
   </Item>
   <Item>
     <StartTime>636106176000000000</StartTime>
@@ -90,46 +606,10 @@
     <Phrase>“How’s this for sublimation.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636148512000000000</StartTime>
-    <EndTime>636158880000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Whichever one is the good one.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636158880000000000</StartTime>
-    <EndTime>636170976000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Down where the turtles stop.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636170976000000000</StartTime>
-    <EndTime>636177024000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“All you can stomach.” </Phrase>
-  </Item>
-  <Item>
-    <StartTime>636177024000000000</StartTime>
-    <EndTime>636195168000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Fake knife, real ketchup.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636195168000000000</StartTime>
     <EndTime>636198624000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Ain't no stander like a bystander.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636198624000000000</StartTime>
-    <EndTime>636202944000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Relate to it.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636202944000000000</StartTime>
-    <EndTime>636207264000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“After that, the atoms sorted themselves out.”</Phrase>
   </Item>
   <Item>
     <StartTime>636207264000000000</StartTime>
@@ -144,72 +624,6 @@
     <Phrase>“The rapid forced erosion of indifference.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636216768000000000</StartTime>
-    <EndTime>636221952000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Popular among the ivy and ferns.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636221952000000000</StartTime>
-    <EndTime>636227136000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Some people even find it relaxing”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636227136000000000</StartTime>
-    <EndTime>636234048000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“An awful thing to waste.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636234048000000000</StartTime>
-    <EndTime>636240096000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Strange to think of it as having a value system.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636240096000000000</StartTime>
-    <EndTime>636250464000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Containing much pith.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636250464000000000</StartTime>
-    <EndTime>636256512000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Semi-slash, semi-burn.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636256512000000000</StartTime>
-    <EndTime>636259104000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“It isn’t even a story.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636259104000000000</StartTime>
-    <EndTime>636264288000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Could have sworn that verse was in the book.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636264288000000000</StartTime>
-    <EndTime>636268608000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“An essential formative experience.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636268608000000000</StartTime>
-    <EndTime>636273792000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“It’s a miracle of science.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636273792000000000</StartTime>
-    <EndTime>636277248000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Inevitability of complexity growth.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636277248000000000</StartTime>
     <EndTime>636278976000000000</EndTime>
     <Rank>0</Rank>
@@ -222,34 +636,10 @@
     <Phrase>“Didn’t count on the expectorating wall of meat.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636285888000000000</StartTime>
-    <EndTime>636289344000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Mimicking the genre-typical side-chain compression effect.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636289344000000000</StartTime>
     <EndTime>636294528000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Wow! If he says one more cool thing, he's in!”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636294528000000000</StartTime>
-    <EndTime>636297984000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The algorithm was immediately taught contradiction.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636297984000000000</StartTime>
-    <EndTime>636304032000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Sugar's still sweet.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636304032000000000</StartTime>
-    <EndTime>636305760000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Tell my enemies I stand corrected.”</Phrase>
   </Item>
   <Item>
     <StartTime>636305760000000000</StartTime>
@@ -258,40 +648,16 @@
     <Phrase>“Heads on proud.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636310080000000000</StartTime>
-    <EndTime>636316992000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The need for sleep, defeated.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636316992000000000</StartTime>
     <EndTime>636319584000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Still full like the pools on the Titanic.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636319584000000000</StartTime>
-    <EndTime>636324768000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Built for something more primitive.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636324768000000000</StartTime>
     <EndTime>636329952000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“The mundanity was hard to overstate.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636329952000000000</StartTime>
-    <EndTime>636336000000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Every beast of the earth and fowl of the air.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636336000000000000</StartTime>
-    <EndTime>636342048000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“That was rendered in the reality engine.”</Phrase>
   </Item>
   <Item>
     <StartTime>636342048000000000</StartTime>
@@ -312,46 +678,10 @@
     <Phrase>“Your command of the horse language is impeccable.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636352416000000000</StartTime>
-    <EndTime>636354144000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“For reasons lost to history.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636354144000000000</StartTime>
-    <EndTime>636359328000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Have it in a way.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636359328000000000</StartTime>
-    <EndTime>636361056000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Gifts of rare albino elephants.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636361056000000000</StartTime>
-    <EndTime>636364512000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Well now I feel like I have to try it.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636364512000000000</StartTime>
     <EndTime>636371424000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Senior voted most likely to be apocryphal.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636371424000000000</StartTime>
-    <EndTime>636382656000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Salt to taste.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636382656000000000</StartTime>
-    <EndTime>636385248000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Here’s your future.”</Phrase>
   </Item>
   <Item>
     <StartTime>636385248000000000</StartTime>
@@ -360,28 +690,10 @@
     <Phrase>“Step 2: Draw the rest of the owl.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636388704000000000</StartTime>
-    <EndTime>636390432000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“uhhhOHh”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636390432000000000</StartTime>
     <EndTime>636394752000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Thought it’d be a more fun secret.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636394752000000000</StartTime>
-    <EndTime>636402528000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Throw some confidence behind it.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636402528000000000</StartTime>
-    <EndTime>636404256000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Well, joke isn’t the right word.”</Phrase>
   </Item>
   <Item>
     <StartTime>636404256000000000</StartTime>
@@ -390,52 +702,10 @@
     <Phrase>“Alrightokay.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636406848000000000</StartTime>
-    <EndTime>636409440000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“For your scalp, not your hair.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636409440000000000</StartTime>
-    <EndTime>636413760000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Otherwise this would take forever.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636413760000000000</StartTime>
-    <EndTime>636416352000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Lazily reclaimed by nature.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636416352000000000</StartTime>
-    <EndTime>636418944000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“As reversed as psychology can get.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636418944000000000</StartTime>
     <EndTime>636419808000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“The rhythm chugged.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636419808000000000</StartTime>
-    <EndTime>636424992000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Peanut butter jelly and other snacks.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636424992000000000</StartTime>
-    <EndTime>636431040000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Oh, let it.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636431040000000000</StartTime>
-    <EndTime>636432768000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“A blob of pyrosomes that live in the ocean.”</Phrase>
   </Item>
   <Item>
     <StartTime>636432768000000000</StartTime>
@@ -480,28 +750,10 @@
     <Phrase>“There might even be a spinoff.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636456960000000000</StartTime>
-    <EndTime>636464736000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Way to bury the lede.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636464736000000000</StartTime>
-    <EndTime>636473376000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Have you ever actually sat down and read this thing?”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636473376000000000</StartTime>
     <EndTime>636475968000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Standard US Version”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636475968000000000</StartTime>
-    <EndTime>636479424000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“How unlikely that it’d be the obvious thing.”</Phrase>
   </Item>
   <Item>
     <StartTime>636479424000000000</StartTime>
@@ -510,82 +762,16 @@
     <Phrase>“There’s such a chaotic energy radiating off of this jpeg.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636482880000000000</StartTime>
-    <EndTime>636483744000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Thrilled as beans.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636483744000000000</StartTime>
-    <EndTime>636487200000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“In this case the advantage is provable.“</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636487200000000000</StartTime>
-    <EndTime>636503616000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“It was a great joke with excellent delivery.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636503616000000000</StartTime>
-    <EndTime>636506208000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“It doesn’t melt but tastes pretty good.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636506208000000000</StartTime>
-    <EndTime>636509664000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Ready to be awake again.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636509664000000000</StartTime>
-    <EndTime>636511392000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Now to inhabit the structure.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636511392000000000</StartTime>
     <EndTime>636516576000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“First attempt. No title.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636516576000000000</StartTime>
-    <EndTime>636522624000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Repetition but with shifting intonation.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636522624000000000</StartTime>
-    <EndTime>636527808000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Hey, the man knows what he is.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636527808000000000</StartTime>
     <EndTime>636530400000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“The current is both applied and received from within.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636530400000000000</StartTime>
-    <EndTime>636533856000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Something simple and shy like that.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636533856000000000</StartTime>
-    <EndTime>636536448000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Oops, all allegory.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636536448000000000</StartTime>
-    <EndTime>636540768000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“What was I saying, the first time around?”</Phrase>
   </Item>
   <Item>
     <StartTime>636540768000000000</StartTime>
@@ -600,12 +786,6 @@
     <Phrase>“Haven't you heard? Rock and Roll builds cities.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636546816000000000</StartTime>
-    <EndTime>636547680000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Cleverly painting the dirt.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636547680000000000</StartTime>
     <EndTime>636552000000000000</EndTime>
     <Rank>0</Rank>
@@ -616,12 +796,6 @@
     <EndTime>636558048000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“That’s why I drink diet water.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636558048000000000</StartTime>
-    <EndTime>636559776000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“No, partybot. Not now.”</Phrase>
   </Item>
   <Item>
     <StartTime>636559776000000000</StartTime>
@@ -642,46 +816,10 @@
     <Phrase>“Try not to learn anything from this.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636570144000000000</StartTime>
-    <EndTime>636572736000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Titan of normalcy.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636572736000000000</StartTime>
-    <EndTime>636577056000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Looking good, Faust.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636577056000000000</StartTime>
     <EndTime>636582240000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“The final and most shocking conclusion.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636582240000000000</StartTime>
-    <EndTime>636584832000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Admit it. This is what you came here for.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636584832000000000</StartTime>
-    <EndTime>636588288000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Crashing through the back brush.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636588288000000000</StartTime>
-    <EndTime>636590880000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Curiously portrayed as dreaming underdogs.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636590880000000000</StartTime>
-    <EndTime>636594336000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The future is here, old man.”</Phrase>
   </Item>
   <Item>
     <StartTime>636594336000000000</StartTime>
@@ -714,12 +852,6 @@
     <Phrase>“Either trivial or impossible.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636612480000000000</StartTime>
-    <EndTime>636615072000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“What I imagine a dumpster tastes like.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636615072000000000</StartTime>
     <EndTime>636618528000000000</EndTime>
     <Rank>0</Rank>
@@ -730,12 +862,6 @@
     <EndTime>636620256000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“More teeth sprouted.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636620256000000000</StartTime>
-    <EndTime>636624576000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Maybe just imagined.”</Phrase>
   </Item>
   <Item>
     <StartTime>636624576000000000</StartTime>
@@ -750,12 +876,6 @@
     <Phrase>“The abstraction leaked everywhere.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636637536000000000</StartTime>
-    <EndTime>636646176000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The fire doesn’t start until tomorrow.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636646176000000000</StartTime>
     <EndTime>636649632000000000</EndTime>
     <Rank>0</Rank>
@@ -768,70 +888,10 @@
     <Phrase>“Life form has a message stuck in its head.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636652224000000000</StartTime>
-    <EndTime>636655680000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Behold the highest resolution.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636655680000000000</StartTime>
-    <EndTime>636660000000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Consider the meaning.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636660000000000000</StartTime>
-    <EndTime>636664320000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The first of several seamless transitions.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636664320000000000</StartTime>
-    <EndTime>636668640000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“You normalize it pretty quickly.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636668640000000000</StartTime>
-    <EndTime>636676416000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Believe harder.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636676416000000000</StartTime>
-    <EndTime>636681600000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Exactly what it seems.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636681600000000000</StartTime>
     <EndTime>636685056000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Deeply representative of America.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636685056000000000</StartTime>
-    <EndTime>636688512000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Of the dead and burning south.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636688512000000000</StartTime>
-    <EndTime>636691968000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“haha but i will tell you anyway”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636691968000000000</StartTime>
-    <EndTime>636694560000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Can’t it just die clean and pretty?”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636694560000000000</StartTime>
-    <EndTime>636698016000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Let loose your charms.”</Phrase>
   </Item>
   <Item>
     <StartTime>636698016000000000</StartTime>
@@ -840,40 +900,10 @@
     <Phrase>“Keep in mind, this water isn’t wet.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636699744000000000</StartTime>
-    <EndTime>636704928000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“An increasingly alienating series of inside jokes.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636704928000000000</StartTime>
-    <EndTime>636709248000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Reeling with the glut of possibilities.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636709248000000000</StartTime>
     <EndTime>636711840000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“I don’t advise it. I hereby declare it inadvisable.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636711840000000000</StartTime>
-    <EndTime>636717888000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“The words make sense.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636717888000000000</StartTime>
-    <EndTime>636721344000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Profusion of variables with unhelpful names.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636721344000000000</StartTime>
-    <EndTime>636723936000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Who knows what they were going for.”</Phrase>
   </Item>
   <Item>
     <StartTime>636723936000000000</StartTime>
@@ -882,34 +912,10 @@
     <Phrase>“Less story driven.”</Phrase>
   </Item>
   <Item>
-    <StartTime>636727392000000000</StartTime>
-    <EndTime>636729984000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Contextualized in the trend it is the apotheosis of.”</Phrase>
-  </Item>
-  <Item>
     <StartTime>636729984000000000</StartTime>
     <EndTime>636739488000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“I get</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636739488000000000</StartTime>
-    <EndTime>636742080000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Pretend to dignity.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636742080000000000</StartTime>
-    <EndTime>636746400000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Host to these bizarre guests.”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636746400000000000</StartTime>
-    <EndTime>636748992000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Adds flavor but isn’t the meat.”</Phrase>
   </Item>
   <Item>
     <StartTime>636748992000000000</StartTime>
@@ -934,12 +940,6 @@
     <EndTime>636053472000000000</EndTime>
     <Rank>0</Rank>
     <Phrase>“Not the intended audience”</Phrase>
-  </Item>
-  <Item>
-    <StartTime>636057792000000000</StartTime>
-    <EndTime>636057792000000000</EndTime>
-    <Rank>0</Rank>
-    <Phrase>“Once in a lifetime.”</Phrase>
   </Item>
   <Item>
     <StartTime>636053472000000000</StartTime>
