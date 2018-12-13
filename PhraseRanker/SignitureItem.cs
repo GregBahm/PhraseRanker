@@ -92,7 +92,22 @@ namespace PhraseFighter
                 string[] split = line.Split(new string[] { "- " }, StringSplitOptions.RemoveEmptyEntries);
                 string dateText = split[0];
                 StartTime = Convert.ToDateTime(dateText);
-                Phrase = split[1];
+                Phrase = ExtractPhrase(split);
+            }
+
+            //To handle phrases containing a "-"
+            private string ExtractPhrase(string[] split)
+            {
+                string ret = "";
+                for (int i = 1; i < split.Length; i++)
+                {
+                    ret += split[i];
+                    if(i < (split.Length - 1))
+                    {
+                        ret += "-";
+                    }
+                }
+                return ret;
             }
         }
     }

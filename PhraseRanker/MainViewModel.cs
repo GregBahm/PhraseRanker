@@ -43,8 +43,12 @@ namespace PhraseFighter
             if (_currentGroup != null)
             {
                 _currentFight = _currentGroup.GetNextPhraseFight();
-                NotifyPropertyChanged(nameof(CurrentFight));
             }
+            else
+            {
+                _currentFight = null;
+            }
+            NotifyPropertyChanged(nameof(CurrentFight));
         }
 
         public void GrantLeftWin()

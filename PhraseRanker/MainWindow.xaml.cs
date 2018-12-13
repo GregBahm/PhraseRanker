@@ -17,8 +17,8 @@ namespace PhraseFighter
 {
     public partial class MainWindow : Window
     {
-        const string XmlPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.xml";
-        const string RawPath = @"C:\Users\Lisa\Documents\PhraseRanker\Prose.txt";
+        const string XmlPath = @"D:\PhraseRanker\Prose.xml";
+        const string RawPath = @"D:\PhraseRanker\Prose.txt";
 
         public MainWindow()
         {

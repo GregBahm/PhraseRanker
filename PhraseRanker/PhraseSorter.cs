@@ -59,8 +59,7 @@ namespace PhraseFighter
 
         internal PhraseFight GetNextPhraseFight()
         {
-            int randomPhraseIndex = _random.Next(_groups.Count - 1);
-            return _groups[randomPhraseIndex].GetNextPhraseFight();
+            return _groups.First(item => !item.Complete).GetNextPhraseFight();
         }
     }
 }
