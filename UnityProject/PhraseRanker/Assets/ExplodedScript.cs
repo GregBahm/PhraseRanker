@@ -45,6 +45,8 @@ public class ExplodedScript : MonoBehaviour
 
     public Material Background;
 
+    public bool RandomizeOrder;
+
     void Start ()
     {
         SignitureItem[] items = LoadFromXml(SourceXml.text).ToArray();
@@ -98,6 +100,7 @@ public class ExplodedScript : MonoBehaviour
         explodedItem.Item = item;
         explodedItem.RandomSeed = UnityEngine.Random.value;
         explodedItem.TextMesh.text = GetTextFor(item);
+        explodedItem.Renderer = newObj.GetComponent<MeshRenderer>();
         return explodedItem;
     }
 
@@ -114,9 +117,50 @@ public class ExplodedScript : MonoBehaviour
         foreach (ExplodedItem item in _explodedItems)
         {
             item.TextMesh.color = GetColorFor(item.Item, item.Param);
+            SetSize(item);
+            item.transform.rotation = Quaternion.identity;
+        }
+        //SetSizedOrder();
+        if(RandomizeOrder)
+        {
+            DoRandomizeOrder();
+            RandomizeOrder = false;
+        }
+        foreach (ExplodedItem item in _explodedItems)
+        {
             UpdateItemPosition(item);
+            item.transform.localRotation = Quaternion.identity;
         }
         Background.SetColor("_Tint", BackgroundColor);
+    }
+
+    private void DoRandomizeOrder()
+    {
+        foreach (ExplodedItem item in _explodedItems)
+        {
+            item.PsuedoRank = UnityEngine.Random.value;
+        }
+        _explodedItems = _explodedItems.OrderBy(item => item.PsuedoRank).ToList();
+    }
+
+    private void SetSizedOrder()
+    {
+        _explodedItems = _explodedItems.OrderBy(item => item.Renderer.bounds.extents.x).ToList();
+        for (int i = 0; i < _explodedItems.Count; i++)
+        {
+            _explodedItems[i].PsuedoRank = i;
+        }
+        _explodedItems = _explodedItems.OrderBy(item => PsuedoToRealRank((int)item.PsuedoRank)).ToList();
+    }
+
+    private float PsuedoToRealRank(int psuedoRank)
+    {
+        bool isEven = psuedoRank % 2 == 0;
+        if(isEven)
+        {
+            return (_explodedItems.Count - psuedoRank) + _explodedItems.Count;
+        }
+        return psuedoRank;
     }
 
     private void EstablishParams(float totalSize)
@@ -142,6 +186,11 @@ public class ExplodedScript : MonoBehaviour
             ret += item.Size;
         }
         return ret;
+    }
+
+    private void SetSize(ExplodedItem item)
+    {
+        item.transform.localScale = new Vector3(item.Size, item.Size, item.Size);
     }
 
     private void UpdateItemPosition(ExplodedItem item)
@@ -175,7 +224,6 @@ public class ExplodedScript : MonoBehaviour
             angle = Mathf.Lerp(90f, angle % 360, Gap);
         }
         item.transform.parent.parent.localRotation = Quaternion.Euler(0, 0, angle);
-        item.transform.localScale = new Vector3(item.Size, item.Size, item.Size);
     }
 
     private float GetItemHeight(float rawRank)

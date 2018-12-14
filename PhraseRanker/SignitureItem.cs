@@ -77,7 +77,10 @@ namespace PhraseFighter
                 RawLine currentConverted = new RawLine(currentLine);
                 string nextLine = rawLines[i + 1];
                 RawLine nextConverted = new RawLine(nextLine);
-                ret.Add(new SignitureItem(currentConverted.StartTime, nextConverted.StartTime, currentConverted.Phrase, 0));
+                int rank = rawLines.Length - i;
+                SignitureItem item = new SignitureItem(currentConverted.StartTime, nextConverted.StartTime, currentConverted.Phrase, rank);
+                ret.Add(item);
+
             }
             return ret;
         }

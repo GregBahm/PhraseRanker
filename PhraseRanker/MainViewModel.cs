@@ -102,7 +102,9 @@ namespace PhraseFighter
         public static MainViewModel LoadFromRaw(string rawPath, string xmlPath)
         {
             List<SignitureItem> initialItems = SignitureItem.LoadFromRawText(rawPath);
-            return new MainViewModel(initialItems, xmlPath);
+            MainViewModel viewModel = new MainViewModel(initialItems, xmlPath);
+            viewModel.Save();
+            return viewModel;
         }
     }
 }

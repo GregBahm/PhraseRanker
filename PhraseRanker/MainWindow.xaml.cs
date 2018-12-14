@@ -18,7 +18,7 @@ namespace PhraseFighter
     public partial class MainWindow : Window
     {
         const string XmlPath = @"D:\PhraseRanker\Prose.xml";
-        const string RawPath = @"D:\PhraseRanker\Prose.txt";
+        const string RawPath = @"D:\PhraseRanker\Sorted.txt";
 
         public MainWindow()
         {
@@ -41,7 +41,6 @@ namespace PhraseFighter
         private void OnResetClick(object sender, RoutedEventArgs e)
         {
             DataContext = MainViewModel.LoadFromRaw(RawPath, XmlPath);
-
         }
     }
 }
